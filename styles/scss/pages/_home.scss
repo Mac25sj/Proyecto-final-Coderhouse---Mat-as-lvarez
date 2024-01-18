@@ -1,0 +1,71 @@
+main{
+    margin: 20px;
+    padding: 20px;
+}
+
+h1,
+h2{
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px 0px;
+}   
+
+.rojo {
+    color: red;
+}
+
+.parrafoindex{
+    margin: 10px;
+    justify-content: center;
+    width: 100%;
+    border: solid;
+    color: blue;
+    font-size: 20px;
+}
+
+.banner {
+    background-image: url("./../../images/portadaindex.jpeg");
+    height: calc(100vh - 100px);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+        
+.h2banner{
+    color: white;
+    font-size: 40px;
+    justify-content: center;
+}
+    
+.pbanner{
+    color: white;
+    font-size: 80px;
+    justify-content: center;
+}
+
+  //mediaquery solicitadas para ser un sitio responsive
+@media (max-width: 768px) {
+    .banner {
+      height: calc(100vh - 50px); 
+    }
+  
+    .h2banner {
+      font-size: 30px; 
+    }
+  
+    .pbanner {
+      font-size: 60px; 
+    }
+  }
+  @media (max-width: 600px) {
+    
+    h1 {
+      font-size: 24px;
+    }
+    p {
+      color: green;
+    }
+  }

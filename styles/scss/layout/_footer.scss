@@ -1,0 +1,26 @@
+footer{
+    margin: 20px;
+    padding: 20px;
+    border-top: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul, li {
+    list-style-type: none;
+    margin: 10px;
+  }
+
+  ul a {
+    color: whitesmoke
+  }
+
+  //mediaquery solicitadas para ser un sitio responsive
+  @media (max-width: 600px) {
+    
+    footer {
+      background-color: blue; 
+    }
+  }
+  
+

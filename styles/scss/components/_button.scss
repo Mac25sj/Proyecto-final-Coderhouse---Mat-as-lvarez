@@ -1,0 +1,12 @@
+.boton {
+    @include boton(#081edd);
+}
+
+.boton:hover {
+    background-color: #28a745;
+    color: #FAFAFA;
+    cursor: pointer;
+}
+
+
+

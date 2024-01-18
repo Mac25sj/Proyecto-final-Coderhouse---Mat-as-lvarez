@@ -1,0 +1,23 @@
+iframe { 
+    display: block;
+    margin:  auto;
+ }
+
+form{
+    margin-top: 20px;
+}
+
+  //mediaquery solicitadas para ser un sitio responsive
+@media (max-width: 600px) {
+   
+    iframe {
+      width: 80%;
+    }
+  }
+  
+
+  @media (min-width: 601px) {
+    iframe {
+      width: 50%;
+    }
+  }

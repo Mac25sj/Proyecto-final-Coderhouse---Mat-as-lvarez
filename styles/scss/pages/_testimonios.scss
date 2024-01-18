@@ -1,0 +1,131 @@
+//Testimonios 
+h3{
+    margin-bottom: 10px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.grid {
+    margin: 0 auto;
+    display: grid;
+    gap: 20px;
+    @media (min-width: 780px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (min-width: 1400px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.justify-between{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.card {
+
+    width: 100%;
+    height: 600px;
+    @media (min-width: 780px){
+
+        width: 550px;
+        height: 400px;
+        box-shadow: 5px 10px 5px 2px rgba(0, 0, 0, .2);
+        
+    }
+    &__img {
+        width: 100%;
+        height: 60%;
+        display: block;
+    }
+    &__content{
+        height: 40%;
+        background-color: white;
+    }
+    &__title {
+        background-color: #333;
+        padding: 10px;
+        color: white;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__text {
+        padding: 5px;
+        text-align: justify;
+    }
+}
+
+/* Móviles */
+@media (max-width: 575.98px) {
+  
+    .container {
+      width: 90%; 
+    }
+    .card {
+      height: auto; 
+    .card__img {
+      height: 40%; 
+    }
+    .card__content {
+      height: 60%; 
+    }
+    .card__title {
+      font-size: 16px; 
+    }
+    .card__text {
+      font-size: 14px; 
+    }
+  }
+  }
+  
+  //mediaquery solicitadas para ser un sitio responsive
+
+  
+  @media (min-width: 576px) and (max-width: 991.98px) {
+   
+    .container {
+      width: 85%; 
+    }
+    .card {
+      height: 500px; 
+    }
+    .card__img {
+      height: 50%; 
+    }
+    .card__content {
+      height: 50%; 
+    }
+    .card__title {
+      font-size: 18px; 
+    }
+    .card__text {
+      font-size: 16px; 
+    }
+  }
+  
+ 
+  @media (min-width: 992px) {
+    
+    .container {
+      width: 80%; 
+    }
+    .card {
+      height: 600px; 
+    }
+    .card__img {
+      height: 60%; 
+    }
+    .card__content {
+      height: 40%; 
+    }
+    .card__title {
+      font-size: 20px; 
+    }
+    .card__text {
+      font-size: 18px; 
+    }
+  }

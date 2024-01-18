@@ -1,0 +1,41 @@
+//ABSTRACTS
+@import "abstracts/vars";
+@import "abstracts/mixins";
+
+//BASE
+@import "base/reset";
+@import "base/typhography";
+
+//COMPONENTS
+@import "components/button.scss";
+
+//LAYOUT
+@import "../scss/layout/header";
+@import "../scss/layout/navbar";
+@import "../scss/layout/footer";
+
+//PAGES
+@import "pages/home";
+@import "pages/clases";
+@import "pages/sucursales";
+@import "pages/testimonios";
+@import "pages/contacto";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

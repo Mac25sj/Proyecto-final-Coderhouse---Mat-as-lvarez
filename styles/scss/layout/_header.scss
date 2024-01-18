@@ -1,0 +1,75 @@
+body {
+    background-color:skyblue ;
+}
+
+header{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.textoTitulo{
+    text-align: center;
+    text-decoration: none;
+    color: #fcfffd;
+    
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.logo{
+    width: 150px;
+}
+
+
+
+.encabezado li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.encabezado li a {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.encabezado li a:hover {
+    color: #7AB730;
+}
+
+  //mediaquery solicitadas para ser un sitio responsive
+
+@media (max-width: 600px) {
+    
+    .encabezado {
+      flex-direction: column; 
+      height: auto; 
+    }
+    .logo {
+      width: 100px; 
+    }
+    .encabezado li a {
+      font-size: 1rem; 
+    }
+  }
+  
+ 
+  @media (min-width: 601px) {
+    .encabezado {
+      flex-direction: row; 
+      height: 100px; 
+    }
+    .logo {
+      width: 150px; 
+    }
+    .encabezado li a {
+      font-size: 1.5rem;}
+  }
